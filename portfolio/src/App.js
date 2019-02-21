@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import NavMenu from './Components/NavBar';
 import Experience from './Components/Experience';
+import Projects from './Components/Projects';
 import './css/App.css';
 
 class App extends Component {
@@ -12,8 +13,9 @@ class App extends Component {
           <NavMenu />
           <Header />
         </div>
-        <Experience />
 
+        <Experience />
+        <Projects/>
         {/* <div className='testing'>
           testing the text under image
         </div> */}

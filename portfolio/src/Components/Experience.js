@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CircularUnderLoad from './loading';
 // import uuid from 'uuid';
-import { companyInfo } from '../companyInfo.js';
+import { companyInfo } from '../data/companyInfo.js';
 
 class Experience extends Component {
   constructor() {
