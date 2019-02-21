@@ -3,6 +3,8 @@ import Header from './Components/Header';
 import NavMenu from './Components/NavBar';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
+import Quotes from './Components/Quotes';
+import Footer from './Components/Footer';
 import './css/App.css';
 
 class App extends Component {
@@ -13,9 +15,12 @@ class App extends Component {
           <NavMenu />
           <Header />
         </div>
-
+        <Quotes/>
         <Experience />
         <Projects/>
+
+
+        <Footer/>
         {/* <div className='testing'>
           testing the text under image
         </div> */}
