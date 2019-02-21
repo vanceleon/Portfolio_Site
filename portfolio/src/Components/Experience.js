@@ -20,14 +20,12 @@ class Experience extends Component {
   // refactor to incorporate the uuid
 
   render() {
-      console.log(this.state.roles);
     if (this.state.roles) {
-
     //   const uuid = uuid.v4();
       return (
         <div className='experience-tabs'>
+          <h1>My Journey</h1>
           {this.state.roles.map((role, i) => {
-            console.log(role)
             return (
               <div key={i} className='role'>
                 <div className='company'>{role.image}</div>
