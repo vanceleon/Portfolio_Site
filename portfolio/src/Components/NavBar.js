@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../css/hamburger.css';
 
 class NavMenu extends Component {
   constructor() {
@@ -23,12 +24,25 @@ class NavMenu extends Component {
 
   handleEvent(ev) {
       ev.preventDefault();
-      
+
   }
 
   render() {
     const burgerStyle = ['hamburger', 'hamburger--spin'];
-    return <div>menu</div>;
+    if(this.state.isOpen){
+        burgerStyle.push("is-active");
+    }
+    
+    return (
+      <div style={{ display: "flex" }} onClick={this.onClick}>
+        <button className={burgerStyle.join(" ")} type="button">
+          <span className="hamburger-box">
+            <span className="hamburger-inner" />
+          </span>
+        </button>
+      </div>
+
+    ) 
   }
 }
 

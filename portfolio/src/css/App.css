@@ -31,3 +31,18 @@
     transform: rotate(360deg);
   }
 }
+
+.headShot {
+/* 
+ -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); */
+  position: absolute;
+  left: 0px;
+  top: 0px; 
+  z-index: -10;
+  width: 100vw;
+  height: 100vh;
+}
