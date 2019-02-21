@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import CircularUnderLoad from './loading';
 // import uuid from 'uuid';
-import companyInfo from '../companyInfo';
-
-
+import { companyInfo } from '../companyInfo.js';
 
 class Experience extends Component {
   constructor() {
@@ -14,30 +12,33 @@ class Experience extends Component {
   }
 
   componentDidMount() {
-    if (!this.state.roles) {
+    if (this.state.roles.length === 0) {
       this.setState({ roles: companyInfo });
     }
   }
 
-// refactor to incorporate the uuid
+  // refactor to incorporate the uuid
 
   render() {
+      console.log(this.state.roles);
     if (this.state.roles) {
-        const uuid = uuid.v4();
+
+    //   const uuid = uuid.v4();
       return (
         <div className='experience-tabs'>
-          {this.state.roles.map((role, i ) => {
-            <div key={i} className='role'>
-              <div className='company'>{role.image}</div>
-              <title>
-                <a href={role.companyUrl}>{role.company}</a>
-              </title>
-              <div className='role-title'>{role.title}</div>
-              <div className='location'>{role.location}</div>
-              <div className='description'>
-                {role.description}
+          {this.state.roles.map((role, i) => {
+            console.log(role)
+            return (
+              <div key={i} className='role'>
+                <div className='company'>{role.image}</div>
+                <title>
+                  <a href={role.companyUrl}>{role.company}</a>
+                </title>
+                <div className='role-title'>{role.title}</div>
+                <div className='location'>{role.location}</div>
+                <div className='description'>{role.description}</div>
               </div>
-            </div>;
+            );
           })}
         </div>
       );
