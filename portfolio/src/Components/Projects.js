@@ -23,7 +23,7 @@ class Projects extends Component {
     if (this.state.projectArr) {
     //   const uuid = uuid.v4();
       return (
-        <div className='project-tabs'>
+        <div id='projects' className='project-tabs'>
           <h1>Projects</h1>
           {this.state.projectArr.map((project, i) => {
             return (

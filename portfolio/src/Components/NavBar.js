@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DropMenu from './dropMenu';
 import '../css/hamburger.css';
 
 class NavMenu extends Component {
@@ -40,6 +41,7 @@ class NavMenu extends Component {
             <span className="hamburger-inner" />
           </span>
         </button>
+        <DropMenu isOpen={this.state.isOpen}/>
       </div>
 
     ) 
