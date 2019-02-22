@@ -26,3 +26,27 @@
 .testing {
   display: block;
 }
+
+.navMenu {
+  border: 1px solid orange;
+}
+
+.title {
+  border: 1px solid blue;
+}
+
+.quotes {
+  border: 1px solid coral;
+}
+
+.experience-tabs {
+  border: 1px solid yellow;
+}
+
+.project-tabs {
+  border: 1px solid green;
+}
+
+.footer {
+  border: 1px solid red;
+}

@@ -35,7 +35,7 @@ class NavMenu extends Component {
     }
     
     return (
-      <div style={{ display: "flex" }} onClick={this.onClick}>
+      <div style={{ display: "flex" }} onClick={this.onClick} className='navMenu'>
         <button className={burgerStyle.join(" ")} type="button">
           <span className="hamburger-box">
             <span className="hamburger-inner" />
