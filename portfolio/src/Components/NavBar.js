@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DropMenu from './dropMenu';
 import '../css/hamburger.css';
 
 class NavMenu extends Component {
@@ -34,12 +35,13 @@ class NavMenu extends Component {
     }
     
     return (
-      <div style={{ display: "flex" }} onClick={this.onClick}>
+      <div style={{ display: "flex" }} onClick={this.onClick} className='navMenu'>
         <button className={burgerStyle.join(" ")} type="button">
           <span className="hamburger-box">
             <span className="hamburger-inner" />
           </span>
         </button>
+        <DropMenu isOpen={this.state.isOpen}/>
       </div>
 
     ) 
