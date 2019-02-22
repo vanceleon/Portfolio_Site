@@ -1,6 +1,6 @@
 export const companyInfo = [
   {
-    image: 'image src goes here',
+    image: '../img/logos/ASAP_Program.png',
     company: 'Lambda School',
     companyUrl: 'https://lambdaschool.com/',
     title: 'Full Stack Developer',
@@ -30,14 +30,6 @@ export const companyInfo = [
     title: 'Life Coach',
     location: 'New York, NY',
     description: 'Helped a man with a mental disability develop life skills and move towards proper behavior in a social setting.'
-  },
-  {
-    image: 'image src goes here',
-    company: 'Lambda School',
-    companyUrl: 'https://lambdaschool.com/',
-    title: 'Full Stack Developer',
-    location: 'New York, NY',
-    description: 'this is where you will write about companies'
   },
   {
     image: 'image src goes here',
