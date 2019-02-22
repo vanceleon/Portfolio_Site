@@ -29,6 +29,9 @@
 
 .navMenu {
   border: 1px solid orange;
+  display: flex;
+  position: fixed;
+
 }
 
 .title {
