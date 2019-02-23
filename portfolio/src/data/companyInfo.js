@@ -1,6 +1,15 @@
+import ASAP from '../img/logos/ASAP_Program.png'
+import LAMBDA from '../img/logos/lambdaschool.jpg'
+import WANDR from '../img/logos/Waddell-and-Reed.png'
+import INJOY from '../img/logos/InjoyLifeResources.jpeg'
+import CITY from '../img/logos/GardenGrove.jpg'
+import RCSMITH from '../img/logos/RCSmithDesignBuild.png'
+import ANAHEIMAUTO from '../img/logos/AnaheimAutomation.png'
+
+
 export const companyInfo = [
   {
-    image: '../img/logos/ASAP_Program.png',
+    image: LAMBDA,
     company: 'Lambda School',
     companyUrl: 'https://lambdaschool.com/',
     title: 'Full Stack Developer',
@@ -8,15 +17,15 @@ export const companyInfo = [
     description: 'Lambda School is a full immersive full stack software development program'
   },
   {
-    image: 'image src goes here',
+    image: ASAP,
     company: 'California State University Fullerton',
-    companyUrl: 'https://lambdaschool.com/',
+    companyUrl: 'https://giving.fullerton.edu/features/applied-security.aspx',
     title: 'Equity Analyst (Buy-Side)',
     location: 'Fullerton, CA',
     description: `ASAP was an investment program for top tiered finance students to manage the university's endowment fund.` 
   },
   {
-    image: 'image src goes here',
+    image: WANDR,
     company: 'Waddell & Reed',
     companyUrl: 'https://lambdaschool.com/',
     title: 'Financial Planning and Investments Intern',
@@ -24,7 +33,7 @@ export const companyInfo = [
     description: 'evaluated investment opportunities and presented stock information to fellow advisors.'
   },
   {
-    image: 'image src goes here',
+    image: INJOY,
     company: 'Injoy Life Resources',
     companyUrl: 'https://lambdaschool.com/',
     title: 'Life Coach',
@@ -32,7 +41,7 @@ export const companyInfo = [
     description: 'Helped a man with a mental disability develop life skills and move towards proper behavior in a social setting.'
   },
   {
-    image: 'image src goes here',
+    image: CITY,
     company: 'City of Garden Grove',
     companyUrl: 'https://lambdaschool.com/',
     title: 'IT Support Technician',
@@ -40,7 +49,7 @@ export const companyInfo = [
     description: 'Supported city employees with IT needs.'
   },
   {
-    image: 'image src goes here',
+    image: RCSMITH,
     company: 'RC Smith Design Build',
     companyUrl: 'https://lambdaschool.com/',
     title: 'Bookkeeper',
@@ -48,7 +57,7 @@ export const companyInfo = [
     description: 'Supported city employees with IT needs.'
   },
   {
-    image: 'image src goes here',
+    image: ANAHEIMAUTO,
     company: 'Anaheim Automation',
     companyUrl: 'https://lambdaschool.com/',
     title: 'Web Designer',
