@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CircularUnderLoad from './loading';
 // import uuid from 'uuid';
 import { companyInfo } from '../data/companyInfo.js';
-// import ASAP from ''
+import '../img/logos/ASAP_Program.png';
 
 
 
@@ -10,7 +10,7 @@ import { companyInfo } from '../data/companyInfo.js';
 class Experience extends Component {
   constructor() {
     super();
-    this.state = {
+    this.   state = {
       roles: []
     };
   }
@@ -30,9 +30,12 @@ class Experience extends Component {
         <div className='experience-tabs'>
           <h1>My Journey</h1>
           {this.state.roles.map((role, i) => {
+              {/* let pic = require(role.image); */}
+            console.log(role.image)
             return (
               <div key={i} className='role'>
-                <img src={role.image}className='company'/>
+
+                <img src={role.image} className='company'/>
                 <title>
                   <a href={role.companyUrl}>{role.company}</a>
                 </title>
