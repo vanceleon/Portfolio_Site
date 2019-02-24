@@ -4,13 +4,10 @@ import CircularUnderLoad from './loading';
 import { companyInfo } from '../data/companyInfo.js';
 import '../img/logos/ASAP_Program.png';
 
-
-
-
 class Experience extends Component {
   constructor() {
     super();
-    this.   state = {
+    this.state = {
       roles: []
     };
   }
@@ -25,23 +22,26 @@ class Experience extends Component {
 
   render() {
     if (this.state.roles) {
-    //   const uuid = uuid.v4();
+      //   const uuid = uuid.v4();
       return (
         <div className='experience-tabs'>
           <h1>My Journey</h1>
           {this.state.roles.map((role, i) => {
-              {/* let pic = require(role.image); */}
-            console.log(role.image)
+            {
+              /* let pic = require(role.image); */
+            }
+            console.log(role.image);
             return (
               <div key={i} className='role'>
-
-                <img src={role.image} className='company'/>
-                <title>
-                  <a href={role.companyUrl}>{role.company}</a>
-                </title>
-                <div className='role-title'>{role.title}</div>
-                <div className='location'>{role.location}</div>
-                <div className='description'>{role.description}</div>
+                <img src={role.image} className='company' />
+                <div className='company-info'>
+                  <title>
+                    <a href={role.companyUrl}>{role.company}</a>
+                  </title>
+                  <div className='role-title'>{role.title}</div>
+                  <div className='location'>{role.location}</div>
+                  <div className='description'>{role.description}</div>
+                </div>
               </div>
             );
           })}
