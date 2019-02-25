@@ -7074,6 +7074,10 @@ react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
+react-parallax@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-parallax/-/react-parallax-2.1.0.tgz#3e9e88c8663d7dbe1019322cec2bb791fc6c6ead"
+
 react-scripts@2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.1.5.tgz#0740507db0a06d518c231caa1ef4e908bd8ebce5"
