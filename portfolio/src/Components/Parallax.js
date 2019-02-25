@@ -1,27 +1,22 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
-import headshot from '../img/LowerManhattan.jpg';
+import { Parallax } from 'react-parallax';
 
 const HeaderParallax = () => {
-  // if(headshot) {
   return (
     <div className='parallax-container'>
-      <Parallax strength={300}>
-        <Background className='custom-bg'>
+      <Parallax
+        className='parallax-headshot'
+        strength={300}
+        bgImage={require('../img/harlem-brownstones-trees-pano.jpg')}
+      >
+        <div className='profile-name'>
           <h1>Hi, I'm</h1>
           <h1>Vance Leon</h1>
-          <img src={headshot} alt='headhshot' className='parallal-headShot'/>
-        <div style={{ height: '200px' }} />
-        </Background>
+        </div>
+        <div style={{ height: '300px' }} />
       </Parallax>
     </div>
   );
-
-  // }else{
-  //     return (
-  //         <div>Loading...</div>
-  //     )
-  // }
 };
 
 export default HeaderParallax;
