@@ -28,10 +28,10 @@ class Projects extends Component {
           {this.state.projectArr.map((project, i) => {
             return (
               <div key={i} className='role'>
-                <div className='company'>{project.image}</div>
                 <title>
                   <a href={project.projectUrl}>{project.title}</a>
                 </title>
+                <img className='company'src={project.image}/>
                 <div className='description'>{project.description}</div>
               </div>
             );

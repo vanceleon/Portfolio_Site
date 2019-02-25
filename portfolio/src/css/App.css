@@ -5,7 +5,10 @@
   height: 60vh;
 }
 
-
+.portfolio-container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
 
 
 .headShot {
@@ -89,6 +92,7 @@
 }
 .project-tabs {
   border: 1px solid green;
+  
 }
 
 .footer {
