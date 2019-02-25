@@ -38,6 +38,16 @@
   border: 1px solid blue;
 }
 
+.parallax-headshot {
+  background-image: url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fi.dailymail.co.uk%2Fi%2Fpix%2F2015%2F09%2F01%2F18%2F2BE1E88B00000578-3218613-image-m-5_1441127035222.jpg&imgrefurl=https%3A%2F%2Fwww.google.com%2Fimghp%3Fhl%3DEN&docid=ZY5ouBM3GeMG4M&tbnid=YKVTF-GCt7tkiM%3A&vet=10ahUKEwjg4OurxtfgAhVutlkKHVNEB2oQMwhrKAAwAA..i&w=634&h=479&bih=933&biw=997&q=google%20images&ved=0ahUKEwjg4OurxtfgAhVutlkKHVNEB2oQMwhrKAAwAA&iact=mrc&uact=8");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .quotes {
   border: 1px solid coral;
 }
@@ -50,11 +60,13 @@
 
 .role {
   display: flex;
+  margin: 20px 0;
 }
 .company-img {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   border-radius:20px;
+
 }
 
 .project-tabs {
