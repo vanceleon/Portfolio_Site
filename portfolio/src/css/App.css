@@ -79,10 +79,23 @@
 
 }
 
+.company-info-desc{
+  text-align: left;
+  margin: 0 30px;
+}
+
+.role-title{ 
+  font-size: 25px;
+}
 .project-tabs {
   border: 1px solid green;
 }
 
 .footer {
   border: 1px solid red;
+}
+
+.social-media {
+  width: 200px;
+  height: 200px;
 }

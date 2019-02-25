@@ -20,3 +20,4 @@ const HeaderParallax = () => {
 };
 
 export default HeaderParallax;
+    

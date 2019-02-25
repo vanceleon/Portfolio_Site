@@ -1,6 +1,8 @@
+import SMARTRECIPEZ from '../img/projects/SmartRecipez.png'
+
 export const projects = [
     {
-      image: 'image src goes here',
+      image: SMARTRECIPEZ,
       projectUrl: 'https://lambdaschool.com/',
       title: 'Full Stack Developer',
       description: 'this is where you will write about companies'
