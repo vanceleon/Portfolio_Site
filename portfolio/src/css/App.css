@@ -73,6 +73,7 @@
   width: 250px;
   height: 250px;
   border-radius:20px;
+  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -86,6 +87,16 @@
 }
 .project-tabs {
   border: 1px solid green;
+}
+
+.project-snippets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-snippet {
+  width: 300px;
+  height: 300px;
 }
 
 .footer {

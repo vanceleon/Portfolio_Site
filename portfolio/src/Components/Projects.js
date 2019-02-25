@@ -25,19 +25,20 @@ class Projects extends Component {
       return (
         <div id='projects' className='project-tabs'>
           <h1>Projects</h1>
-          {this.state.projectArr.map((project, i) => {
-            return (
-              <div key={i} className='role'>
-              
+          <div className='project-snippets'>
+            {this.state.projectArr.map((project, i) => {
+              return (
+                <div key={i} className='role'>
                   <a href={project.projectUrl}>
                     {/* {project.title} */}
 
-                    <img className='company' src={project.image} />
+                    <img className='project-snippet' src={project.image} />
                   </a>
-                {/* <div className='description'>{project.description}</div> */}
-              </div>
-            );
-          })}
+                  {/* <div className='description'>{project.description}</div> */}
+                </div>
+              );
+            })}
+          </div>
         </div>
       );
     } else {
