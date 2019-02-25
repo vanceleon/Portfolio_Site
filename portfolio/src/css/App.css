@@ -12,13 +12,6 @@
 
 
 .headShot {
-/* 
- -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg); */
-  /* position: absolute; */
   left: 0px;
   top: 0px; 
   z-index: -10;
@@ -74,6 +67,7 @@
 .role {
   display: flex;
   margin: 20px 0;
+  display: flex;
 }
 .company-img {
   width: 250px;
@@ -92,7 +86,6 @@
 }
 .project-tabs {
   border: 1px solid green;
-  
 }
 
 .footer {

@@ -3,7 +3,7 @@ import LAMBDA from '../img/logos/lambdaschool.jpg'
 import WANDR from '../img/logos/Waddell-and-Reed.png'
 import INJOY from '../img/logos/InjoyLifeResources.jpeg'
 import CITY from '../img/logos/GardenGrove.jpg'
-import RCSMITH from '../img/logos/RCSmithDesignBuild.png'
+import RCSMITH from '../img/logos/RCSmithDesignBuild_logo.jpg'
 import ANAHEIMAUTO from '../img/logos/AnaheimAutomation.png'
 
 
