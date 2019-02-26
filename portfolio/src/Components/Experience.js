@@ -33,14 +33,15 @@ class Experience extends Component {
             console.log(role.image);
             return (
               <div key={i} className='role'>
-                <img src={role.image} className='company-img' />
+                <a  href={role.companyUrl}>
+                  <img src={role.image} className='company-img' />
+                </a>
                 <div className='company-info'>
-                  <title>
-                    <a href={role.companyUrl}>{role.company}</a>
-                  </title>
-                  <div className='role-title'>{role.title}</div>
-                  <div className='location'>{role.location}</div>
-                  <div className='description'>{role.description}</div>
+                  <div className='company-info-desc'>
+                    <div className='role-title'>{role.title}</div>
+                    <div className='location'>{role.location}</div>
+                    <div className='description'>{role.description}</div>
+                  </div>
                 </div>
               </div>
             );
