@@ -5,7 +5,7 @@ import linkedIn from '../img/social/linkedin-logo.png';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id='contact'>
             <div className="footer-quote">
                 Closing quote here
             </div>
