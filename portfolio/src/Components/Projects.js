@@ -21,21 +21,24 @@ class Projects extends Component {
 
   render() {
     if (this.state.projectArr) {
-    //   const uuid = uuid.v4();
+      //   const uuid = uuid.v4();
       return (
         <div id='projects' className='project-tabs'>
           <h1>Projects</h1>
-          {this.state.projectArr.map((project, i) => {
-            return (
-              <div key={i} className='role'>
-                <div className='company'>{project.image}</div>
-                <title>
-                  <a href={project.projectUrl}>{project.title}</a>
-                </title>
-                <div className='description'>{project.description}</div>
-              </div>
-            );
-          })}
+          <div className='project-snippets'>
+            {this.state.projectArr.map((project, i) => {
+              return (
+                <div key={i} className='role'>
+                  <a href={project.projectUrl}>
+                    {/* {project.title} */}
+
+                    <img className='project-snippet' src={project.image} />
+                  </a>
+                  {/* <div className='description'>{project.description}</div> */}
+                </div>
+              );
+            })}
+          </div>
         </div>
       );
     } else {

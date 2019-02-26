@@ -27,7 +27,7 @@ export const companyInfo = [
   {
     image: WANDR,
     company: 'Waddell & Reed',
-    companyUrl: 'https://lambdaschool.com/',
+    companyUrl: 'https://www.waddell.com/',
     title: 'Financial Planning and Investments Intern',
     location: 'Brea, CA',
     description: 'evaluated investment opportunities and presented stock information to fellow advisors.'
@@ -35,7 +35,7 @@ export const companyInfo = [
   {
     image: INJOY,
     company: 'Injoy Life Resources',
-    companyUrl: 'https://lambdaschool.com/',
+    companyUrl: 'https://www.injoyliferesources.com/',
     title: 'Life Coach',
     location: 'New York, NY',
     description: 'Helped a man with a mental disability develop life skills and move towards proper behavior in a social setting.'
@@ -43,7 +43,7 @@ export const companyInfo = [
   {
     image: CITY,
     company: 'City of Garden Grove',
-    companyUrl: 'https://lambdaschool.com/',
+    companyUrl: 'https://ggcity.org/',
     title: 'IT Support Technician',
     location: 'Garden Grove, CA',
     description: 'Supported city employees with IT needs.'
@@ -51,15 +51,15 @@ export const companyInfo = [
   {
     image: RCSMITH,
     company: 'RC Smith Design Build',
-    companyUrl: 'https://lambdaschool.com/',
+    companyUrl: 'https://www.rcsmithdesignbuild.com/',
     title: 'Bookkeeper',
-    location: 'Garden Grove, CA',
+    location: 'Fullerton, CA',
     description: 'Supported city employees with IT needs.'
   },
   {
     image: ANAHEIMAUTO,
     company: 'Anaheim Automation',
-    companyUrl: 'https://lambdaschool.com/',
+    companyUrl: 'https://www.anaheimautomation.com/',
     title: 'Web Designer',
     location: 'Anaheim, CA',
     description: 'A part of a web team that revamped the entire site and its content.'

@@ -5,17 +5,13 @@
   height: 60vh;
 }
 
-
+.portfolio-container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
 
 
 .headShot {
-/* 
- -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg); */
-  /* position: absolute; */
   left: 0px;
   top: 0px; 
   z-index: -10;
@@ -28,39 +24,108 @@
 }
 
 .navMenu {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   display: flex;
   position: fixed;
 
 }
 
 .title {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+
+.parallax-headshot {
+  
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.profile-name h1{
+  color:white;
 }
 
 .quotes {
-  border: 1px solid coral;
+  /* border: 1px solid coral; */
 }
 
 .experience-tabs {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   margin: 0 auto;
   max-width: 1024px;
 }
 
 .role {
   display: flex;
-}
-.company-img {
-  width: 400px;
-  height: 400px;
-  border-radius:20px;
+  /* justify-content: space-between; */
+  margin: 20px 0;
+
 }
 
+
+.company-img {
+  width: 250px;
+  height: 250px;
+  border-radius:20px;
+  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.company-info-desc{
+  text-align: left;
+  margin: 0 30px;
+}
+
+.role-title{ 
+  font-size: 25px;
+}
 .project-tabs {
-  border: 1px solid green;
+  /* border: 1px solid green; */
+}
+
+.project-snippets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-snippet {
+  width: 300px;
+  height: 300px;
 }
 
 .footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin: 20px 0;  
+}
+
+
+.social-media {
+  width: 200px;
+  height: 200px;
+  margin: 0 50px;
+}
+/* 
+a .company-img .odd {
+  display;
+} */
+
+.odd {
+  /* float:right; */
+  /* border: 5px solid red; */
+
+  order: 20;
+
 }

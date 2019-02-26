@@ -15,12 +15,13 @@ class App extends Component {
           <NavMenu />
           <Header />
         </div>
-        <Quotes/>
-        <Experience />
-        <Projects/>
+        <div className='portfolio-container'>
+          <Quotes />
+          <Experience />
+          <Projects />
+        </div>
 
-
-        <Footer/>
+        <Footer />
         {/* <div className='testing'>
           testing the text under image
         </div> */}
