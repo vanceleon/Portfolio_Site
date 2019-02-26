@@ -33,7 +33,7 @@ class Experience extends Component {
             console.log(role.image);
             return (
               <div key={i} className='role'>
-                <a href={role.companyUrl}>
+                <a  href={role.companyUrl}>
                   <img src={role.image} className='company-img' />
                 </a>
                 <div className='company-info'>

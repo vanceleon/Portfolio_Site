@@ -24,14 +24,14 @@
 }
 
 .navMenu {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   display: flex;
   position: fixed;
 
 }
 
 .title {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .parallax-headshot {
@@ -41,12 +41,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-name{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -55,17 +59,18 @@
 }
 
 .quotes {
-  border: 1px solid coral;
+  /* border: 1px solid coral; */
 }
 
 .experience-tabs {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   margin: 0 auto;
   max-width: 1024px;
 }
 
 .role {
   display: flex;
+  /* justify-content: space-between; */
   margin: 20px 0;
 
 }
@@ -88,7 +93,7 @@
   font-size: 25px;
 }
 .project-tabs {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .project-snippets {
@@ -102,15 +107,25 @@
 }
 
 .footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin: 20px 0;  
 }
+
 
 .social-media {
   width: 200px;
   height: 200px;
+  margin: 0 50px;
 }
+/* 
+a .company-img .odd {
+  display;
+} */
 
-img:nth-of-type(even) {
-  float:right;
-  border: 5px solid red;
+.odd {
+  /* float:right; */
+  /* border: 5px solid red; */
+
+  order: 20;
+
 }

@@ -6,18 +6,15 @@ const HeaderParallax = () => {
     <div className='parallax-container'>
       <Parallax
         className='parallax-headshot'
-        strength={300}
         bgImage={require('../img/harlem-brownstones-trees-pano.jpg')}
       >
-        <div className='profile-name'>
+        <div className='profile-name' style={{height: '300px'}}>
           <h1>Hi, I'm</h1>
           <h1>Vance Leon</h1>
         </div>
-        <div style={{ height: '300px' }} />
       </Parallax>
     </div>
   );
 };
 
 export default HeaderParallax;
-    
