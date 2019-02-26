@@ -47,6 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
 
 .App {
   text-align: center;
@@ -79,6 +86,7 @@ table {
   position: fixed;
   z-index: 20;
 
+
 }
 
 .menu-text--active {
@@ -88,6 +96,7 @@ table {
   flex-direction: column;
   background-color: #FFFF;
   text-decoration: none;
+
 }
 
 .navLinks{
@@ -119,10 +128,21 @@ table {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  background-color:white;
+  opacity: 0.8;
+  width: 300px;
+  height: 250px;
+  border-radius: 15px; 
 }
 
 .profile-name h1{
-  color:white;
+  color: black;
+  font-size: 1.5rem;
+  
+}
+.profile-name h2{
+  color: black;
+  font-size: 3.4rem;
 }
 
 .quotes {
@@ -135,10 +155,15 @@ table {
   max-width: 1024px;
 }
 
+.experience-tabs h1 {
+  font-size: 3.5rem;
+}
+
 .role {
   display: flex;
   /* justify-content: space-between; */
   margin: 20px 0;
+  
 
 }
 
@@ -151,16 +176,34 @@ table {
   
 }
 
+.experienceLinks{
+  
+}
+
 .company-info-desc{
   text-align: left;
   margin: 0 30px;
 }
 
 .role-title{ 
-  font-size: 25px;
+  font-size: 2.5rem;
 }
-.project-tabs {
+
+.location {
+  font-size: 1.4rem;
+  margin: 10px 0;
+
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.project-tabs h1 {
   /* border: 1px solid green; */
+  font-size: 2.8rem;
+  margin: 20px;
+  
 }
 
 .project-snippets {
