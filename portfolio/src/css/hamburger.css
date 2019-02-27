@@ -45,7 +45,7 @@
 }
 .hamburger-inner::before,
 .hamburger-inner::after {
-  content: "";
+  content: '';
   display: block;
 }
 .hamburger-inner::before {
@@ -93,29 +93,31 @@
 }
 
 @keyframes mymove {
-  from {left: -150px;}
-  to {left: 0px;}
+  from {
+    left: -150px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
 .menu-text--active {
-animation: mymove 300ms;
-animation-fill-mode: both;
-animation-delay: 200ms;
-position: absolute;
-display: flex;
-justify-content: center;
+  animation: mymove 300ms;
+  animation-fill-mode: both;
+  animation-delay: 200ms;
+  position: absolute;
+  display: flex;
+  justify-content: center;
   width: 150px;
   height: 500px;
-  display: flex; 
-  background-color: #FFFF;
+  display: flex;
+  background-color: #ffff;
   text-decoration: none;
-  
 }
-
 
 .menu-text--inactive {
   /* transition: all .3s ease-in-out; */
-display:none;
+  display: none;
 }
 
 @keyframes open {
@@ -140,26 +142,27 @@ display:none;
   }
 }
 
-
-@media (max-width: 576px){
+@media (max-width: 576px) {
   @keyframes mymove {
-    from {top: -300px;}
-    to {top: 0px;}
+    from {
+      top: -300px;
+    }
+    to {
+      top: 0px;
+    }
   }
 
   .menu-text--active {
-    
-animation: mymove 300ms;
-animation-fill-mode: both;
-animation-delay: 200ms;
-position: absolute;
-display: flex;
-justify-content: center;
-  width: 100vw;
-  height: 300px;
-  display: flex; 
-  background-color: #FFFF;
-  text-decoration: none;
+    animation: mymove 300ms;
+    animation-fill-mode: both;
+    animation-delay: 200ms;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    background-color: #ffff;
+    text-decoration: none;
   }
-
 }
