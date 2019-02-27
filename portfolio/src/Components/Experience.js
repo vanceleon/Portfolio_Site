@@ -39,7 +39,8 @@ class Experience extends Component {
                 <div className='company-info'>
                   <div className='company-info-desc'>
                     <a className='experienceLinks' href={role.companyUrl}>
-                      <div className='role-title'>{role.title}</div>
+                      <div className='role-title'>        {role.title}
+                      </div>
                     </a>
                     <div className='location'>{role.location}</div>
                     <div className='description'>{role.description}</div>
