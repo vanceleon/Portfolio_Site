@@ -214,12 +214,12 @@ html {
 .profile-name h1 {
   color: black;
   font-size: 2.9rem;
-  font-family: 'Lato Light', sans-serif; 
+  font-family: 'Lato Light', sans-serif;
 }
 .profile-name h2 {
   color: black;
   font-size: 3.5rem;
-  font-family: 'Lato Light', sans-serif; 
+  font-family: 'Lato Light', sans-serif;
 }
 
 .quotes {
@@ -235,14 +235,14 @@ html {
 .experience-tabs h1 {
   font-size: 3.6rem;
   margin: 60px 0 0 0;
-  font-family: 'Lato Light', sans-serif; 
+  font-family: 'Lato Light', sans-serif;
 }
 
 .role {
   display: flex;
   /* justify-content: space-between; */
   margin: 60px 0;
-  font-family: 'Lato Light', sans-serif; 
+  font-family: 'Lato Light', sans-serif;
 }
 
 .company-img {
@@ -268,10 +268,9 @@ html {
 }
 
 .location {
-  font-size: 2.0rem;
+  font-size: 2rem;
   margin: 10px 0;
   font-style: italic;
-
 }
 
 .description {
@@ -283,7 +282,7 @@ html {
   /* border: 1px solid green; */
   font-size: 3.6rem;
   margin: 60px 0 60px 0;
-  font-family: 'Lato Light', sans-serif; 
+  font-family: 'Lato Light', sans-serif;
 }
 
 .project-snippets {
@@ -335,23 +334,31 @@ html {
     padding: 0 20px;
   }
 
-  
-.project-snippets {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px 0 40px 0;
-  /* justify-content: flex-start; */
-}
+  .project-snippets {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 40px 0;
+    /* justify-content: flex-start; */
+  }
 
-.project-snippet {
-  margin: 10px 0;
-  
-}
-
-
+  .project-snippet {
+    margin: 10px 0;
+  }
 }
 
 @media (max-width: 768px) {
+  /* .parallax-container {
+    height: 100vh;
+  } */
+
+  .header-height {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+
   .project-snippets {
     display: flex;
     flex-direction: column;

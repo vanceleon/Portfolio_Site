@@ -11,9 +11,12 @@ const HeaderParallax = () => {
         strength={500}
       >
         {/* <div /> */}
+        <div className="header-height"> 
         <div className='profile-name'>
           <h1>Hi, I'm</h1>
           <h2>Vance Leon</h2>
+        </div>
+
         </div>
       </Parallax>
     </div>
