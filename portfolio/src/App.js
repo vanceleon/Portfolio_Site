@@ -16,7 +16,7 @@ class App extends Component {
           <HeaderParallax />
         </div>
         <div className='portfolio-container'>
-          <Quotes />
+          {/* <Quotes /> */}
           <Projects />
           <Experience />
 
