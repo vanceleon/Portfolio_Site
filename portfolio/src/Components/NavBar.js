@@ -25,7 +25,7 @@ class NavMenu extends Component {
 
   handleEvent(ev) {
       ev.preventDefault();
-
+      console.log(ev);
   }
 
   render() {
@@ -41,7 +41,7 @@ class NavMenu extends Component {
             <span className="hamburger-inner" />
           </span>
         </button>
-        <DropMenu isOpen={this.state.isOpen}/>
+        <DropMenu isOpen={this.state.isOpen} handleEvent={this.state.handleEvent}/>
       </div>
 
     ) 

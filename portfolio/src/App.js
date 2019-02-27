@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './Components/Header';
+import HeaderParallax from './Components/Parallax';
 import NavMenu from './Components/NavBar';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
@@ -13,12 +13,13 @@ class App extends Component {
       <div className='App'>
         <div className='header-view'>
           <NavMenu />
-          <Header />
+          <HeaderParallax />
         </div>
         <div className='portfolio-container'>
           <Quotes />
-          <Experience />
           <Projects />
+          <Experience />
+
         </div>
 
         <Footer />
