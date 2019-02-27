@@ -139,3 +139,27 @@ display:none;
     left: -45px;
   }
 }
+
+
+@media (max-width: 576px){
+  @keyframes mymove {
+    from {top: -300px;}
+    to {top: 0px;}
+  }
+
+  .menu-text--active {
+    
+animation: mymove 300ms;
+animation-fill-mode: both;
+animation-delay: 200ms;
+position: absolute;
+display: flex;
+justify-content: center;
+  width: 100vw;
+  height: 300px;
+  display: flex; 
+  background-color: #FFFF;
+  text-decoration: none;
+  }
+
+}
