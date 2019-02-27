@@ -204,22 +204,25 @@ html {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  background-color: white;
-  opacity: 0.8;
-  width: 300px;
+  /* background-color: white; */
+  opacity: 1;
+  width: 420px;
   height: 250px;
   border-radius: 15px;
 }
 
 .profile-name h1 {
-  color: black;
-  font-size: 2.9rem;
-  font-family: 'Lato Light', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 5.5rem;
+  font-family: 'Informal Roman', sans-serif;
+  opacity: 1.0;
 }
 .profile-name h2 {
-  color: black;
-  font-size: 3.5rem;
-  font-family: 'Lato Light', sans-serif;
+  color: white;
+  font-size: 8.0rem;
+  font-weight: bold;
+  font-family: 'Sitka Heading', sans-serif;
 }
 
 .quotes {
@@ -234,8 +237,19 @@ html {
 
 .experience-tabs h1 {
   font-size: 3.6rem;
-  margin: 60px 0 0 0;
+  margin: 50px auto;
   font-family: 'Lato Light', sans-serif;
+  border-bottom: 2px solid rgba(0, 0, 0, .5);
+  width: 25%;
+  padding: 6px;
+}
+
+
+.exp-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: left;
+  
 }
 
 .role {
@@ -260,6 +274,7 @@ html {
   margin: 0 30px;
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .role-title {
@@ -276,13 +291,21 @@ html {
 .description {
   font-size: 1.8rem;
   line-height: 1.5;
+  text-align: left;
+  padding: 10px;
+  width: 300px;
+  font-style: italic;
+  font-family: 'Lato Light', sans-serif;
 }
 
 .project-tabs h1 {
   /* border: 1px solid green; */
   font-size: 3.6rem;
-  margin: 60px 0 60px 0;
+  margin: 50px auto;
   font-family: 'Lato Light', sans-serif;
+  border-bottom: 2px solid rgba(0, 0, 0, .5);
+  width: 25%;
+  padding: 6px;
 }
 
 .project-snippets {
@@ -295,7 +318,7 @@ html {
   width: 300px;
   height: 300px;
   border-radius: 20px;
-  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer {
@@ -309,7 +332,7 @@ html {
 
 .footer-quote h1 {
   font-family: 'Lato Light', sans-serif;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   margin: 20px 0;
   color: white;
@@ -322,8 +345,8 @@ html {
 }
 
 .social-media {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   border-radius: 20px;
   align-items: center;
   margin: 0 25px;
