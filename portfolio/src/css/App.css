@@ -87,22 +87,25 @@ html {
   z-index: 20;
 
 
+
 }
 
-.menu-text--active {
-  width: 100vw;
-  height: 100px;
-  display: flex; 
-  flex-direction: column;
-  background-color: #FFFF;
-  text-decoration: none;
 
+
+.nav-subContainer{
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
 
 .navLinks{
   text-decoration: none;
   color:#A3a3a3;
   padding: 5px;
+  font-size:2.0rem;
+  
 }
 
 
