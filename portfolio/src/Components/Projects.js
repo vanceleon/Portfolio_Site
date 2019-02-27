@@ -34,7 +34,7 @@ class Projects extends Component {
 
                     <img className='project-snippet' src={project.image} />
                   </a>
-                  {/* <div className='description'>{project.description}</div> */}
+                  <div className='description'>{project.description}</div>
                 </div>
               );
             })}

@@ -36,14 +36,12 @@ class Experience extends Component {
                 <a href={role.companyUrl}>
                   <img src={role.image} className='company-img' />
                 </a>
-                <div className='company-info'>
-                  <div className='company-info-desc'>
-                    <a className='experienceLinks' href={role.companyUrl}>
-                      <div className='role-title'> {role.title}</div>
-                    </a>
-                    <div className='location'>{role.location}</div>
-                    <div className='description'>{role.description}</div>
-                  </div>
+                <div className='company-info-desc'>
+                  <a className='experienceLinks' href={role.companyUrl}>
+                    <div className='role-title'> {role.title}</div>
+                  </a>
+                  <div className='location'>{role.location}</div>
+                  <div className='exp-description'>{role.description}</div>
                 </div>
               </div>
             );
