@@ -28,7 +28,7 @@ class Projects extends Component {
           <div className='project-snippets'>
             {this.state.projectArr.map((project, i) => {
               return (
-                <div key={i} className='role'>
+                <div key={i}>
                   <a href={project.projectUrl}>
                     {/* {project.title} */}
 

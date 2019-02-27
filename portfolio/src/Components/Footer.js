@@ -5,9 +5,9 @@ import linkedIn from '../img/social/linkedin-logo.png';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id='contact'>
             <div className="footer-quote">
-                Closing quote here
+                Let's build a project and change the world together
             </div>
             <div className="contact-info">
                 <a href='https://github.com/vanceleon'><img className='social-media' src={github} alt='githubLogo'/></a>

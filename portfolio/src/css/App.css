@@ -1,3 +1,60 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 .App {
   text-align: center;
   position: relative;
@@ -25,10 +82,29 @@
 
 .navMenu {
   /* border: 1px solid orange; */
-  display: flex;
+  /* display: flex; */
   position: fixed;
+  z-index: 20;
+
 
 }
+
+.menu-text--active {
+  width: 100vw;
+  height: 100px;
+  display: flex; 
+  flex-direction: column;
+  background-color: #FFFF;
+  text-decoration: none;
+
+}
+
+.navLinks{
+  text-decoration: none;
+  color:#A3a3a3;
+  padding: 5px;
+}
+
 
 .title {
   /* border: 1px solid blue; */
@@ -52,10 +128,21 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  background-color:white;
+  opacity: 0.8;
+  width: 300px;
+  height: 250px;
+  border-radius: 15px; 
 }
 
 .profile-name h1{
-  color:white;
+  color: black;
+  font-size: 1.5rem;
+  
+}
+.profile-name h2{
+  color: black;
+  font-size: 3.4rem;
 }
 
 .quotes {
@@ -68,10 +155,15 @@
   max-width: 1024px;
 }
 
+.experience-tabs h1 {
+  font-size: 3.5rem;
+}
+
 .role {
   display: flex;
   /* justify-content: space-between; */
   margin: 20px 0;
+  
 
 }
 
@@ -84,16 +176,34 @@
   
 }
 
+.experienceLinks{
+  
+}
+
 .company-info-desc{
   text-align: left;
   margin: 0 30px;
 }
 
 .role-title{ 
-  font-size: 25px;
+  font-size: 2.5rem;
 }
-.project-tabs {
+
+.location {
+  font-size: 1.4rem;
+  margin: 10px 0;
+
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.project-tabs h1 {
   /* border: 1px solid green; */
+  font-size: 2.8rem;
+  margin: 20px;
+  
 }
 
 .project-snippets {
