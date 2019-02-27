@@ -7,15 +7,15 @@ const DropMenu = props => {
   return (
     <div className={props.isOpen ? 'menu-text--active' : 'menu-text--inactive'}>
       <div className='nav-subContainer'>
+        <a className='navLinks' href='#projects' onClick={props.handleEvent}>
+          Projects
+        </a>
         <a
           className='navLinks'
           href='#myExperience'
           onClick={props.handleEvent}
         >
           My Journey
-        </a>
-        <a className='navLinks' href='#projects' onClick={props.handleEvent}>
-          Projects
         </a>
         <a className='navLinks' href='#contact' onClick={props.handleEvent}>
           Contact
