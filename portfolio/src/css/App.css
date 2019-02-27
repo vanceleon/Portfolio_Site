@@ -218,7 +218,7 @@ html {
 }
 .profile-name h2 {
   color: black;
-  font-size: 3.4rem;
+  font-size: 3.5rem;
   font-family: 'Lato Light', sans-serif; 
 }
 
@@ -233,16 +233,15 @@ html {
 }
 
 .experience-tabs h1 {
-  font-size: 3.5rem;
-  
+  font-size: 3.6rem;
+  margin: 60px 0 0 0;
   font-family: 'Lato Light', sans-serif; 
 }
 
 .role {
   display: flex;
   /* justify-content: space-between; */
-  margin: 20px 0;
-  
+  margin: 60px 0;
   font-family: 'Lato Light', sans-serif; 
 }
 
@@ -265,11 +264,14 @@ html {
 
 .role-title {
   font-size: 2.5rem;
+  color: #0d5fe2;
 }
 
 .location {
-  font-size: 1.4rem;
+  font-size: 2.0rem;
   margin: 10px 0;
+  font-style: italic;
+
 }
 
 .description {
@@ -279,8 +281,8 @@ html {
 
 .project-tabs h1 {
   /* border: 1px solid green; */
-  font-size: 3.2rem;
-  margin: 20px 0 0 0;
+  font-size: 3.6rem;
+  margin: 60px 0 60px 0;
   font-family: 'Lato Light', sans-serif; 
 }
 
