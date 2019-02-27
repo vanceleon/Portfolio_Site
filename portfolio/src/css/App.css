@@ -217,18 +217,42 @@ html {
 .project-snippet {
   width: 300px;
   height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
 
 .footer {
   /* border: 1px solid red; */
   margin: 20px 0;  
+  background-color: #1A202B;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
+.footer-quote h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: white;
+}
+
+.contact-info {
+  align-items: center;
+  display: flex;
+}
 
 .social-media {
-  width: 200px;
-  height: 200px;
-  margin: 0 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 0 25px;
+  /* justify-content: space-between; */
+  /* padding: 20px 0; */
+  /* box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19); */
 }
 /* 
 a .company-img .odd {

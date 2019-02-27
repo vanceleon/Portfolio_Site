@@ -17,8 +17,9 @@ class App extends Component {
         </div>
         <div className='portfolio-container'>
           <Quotes />
-          <Experience />
           <Projects />
+          <Experience />
+
         </div>
 
         <Footer />
