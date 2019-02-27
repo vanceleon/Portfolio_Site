@@ -216,11 +216,11 @@ html {
   font-weight: bold;
   font-size: 5.5rem;
   font-family: 'Informal Roman', sans-serif;
-  opacity: 1.0;
+  opacity: 1;
 }
 .profile-name h2 {
   color: white;
-  font-size: 8.0rem;
+  font-size: 8rem;
   font-weight: bold;
   font-family: 'Sitka Heading', sans-serif;
 }
@@ -239,17 +239,15 @@ html {
   font-size: 3.6rem;
   margin: 50px auto;
   font-family: 'Lato Light', sans-serif;
-  border-bottom: 2px solid rgba(0, 0, 0, .5);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   width: 25%;
   padding: 6px;
 }
-
 
 .exp-description {
   font-size: 1.8rem;
   line-height: 1.5;
   text-align: left;
-  
 }
 
 .role {
@@ -303,7 +301,7 @@ html {
   font-size: 3.6rem;
   margin: 50px auto;
   font-family: 'Lato Light', sans-serif;
-  border-bottom: 2px solid rgba(0, 0, 0, .5);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   width: 25%;
   padding: 6px;
 }
@@ -380,7 +378,6 @@ html {
     flex-direction: row;
     align-items: center;
   }
-  
 
   .project-snippets {
     display: flex;
@@ -399,6 +396,12 @@ html {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
+  }
+
+  .company-info-desc {
+    margin: 0 auto;
+    width: 345px;
+    /* text-align: justify; */
   }
 
   .company-img {
