@@ -263,7 +263,7 @@ html {
   margin: 0 30px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .role-title {
