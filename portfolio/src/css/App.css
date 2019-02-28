@@ -166,6 +166,8 @@ html {
   /* display: flex; */
   position: fixed;
   z-index: 20;
+  
+ 
 }
 
 .nav-subContainer {
@@ -174,6 +176,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .navLinks {
@@ -181,6 +184,8 @@ html {
   color: #a3a3a3;
   padding: 5px;
   font-size: 2.5rem;
+  /* line-height: 50px; */
+  margin: 15px 0;
 }
 
 
