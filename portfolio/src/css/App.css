@@ -183,9 +183,6 @@ html {
   font-size: 2.5rem;
 }
 
-.title {
-  /* border: 1px solid blue; */
-}
 
 .parallax-headshot {
   min-height: 500px;
@@ -225,9 +222,6 @@ html {
   font-family: 'Sitka Heading', sans-serif;
 }
 
-.quotes {
-  /* border: 1px solid coral; */
-}
 
 .experience-tabs {
   /* border: 1px solid yellow; */
@@ -240,7 +234,7 @@ html {
   margin: 50px auto;
   font-family: 'Lato Light', sans-serif;
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-  width: 25%;
+  width: 200px;
   padding: 6px;
 }
 
@@ -264,8 +258,6 @@ html {
   box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
 }
 
-.experienceLinks {
-}
 
 .company-info-desc {
   text-align: left;
@@ -302,7 +294,7 @@ html {
   margin: 50px auto;
   font-family: 'Lato Light', sans-serif;
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-  width: 25%;
+  width: 200px;
   padding: 6px;
 }
 
@@ -368,9 +360,6 @@ html {
 }
 
 @media (max-width: 768px) {
-  /* .parallax-container {
-    height: 100vh;
-  } */
 
   .header-height {
     height: 100vh;
