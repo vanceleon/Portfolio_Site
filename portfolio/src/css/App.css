@@ -212,16 +212,15 @@ html {
   color: white;
   font-weight: bold;
   font-size: 5.5rem;
-  font-family: 'Informal Roman', sans-serif;
+  font-family: 'Informal Roman', 'Garamond', sans-serif;
   opacity: 1;
 }
 .profile-name h2 {
   color: white;
   font-size: 8rem;
   font-weight: bold;
-  font-family: 'Sitka Heading', sans-serif;
+  font-family: 'Sitka Heading', 'Century Schoolbook',sans-serif;
 }
-
 
 .experience-tabs {
   /* border: 1px solid yellow; */
