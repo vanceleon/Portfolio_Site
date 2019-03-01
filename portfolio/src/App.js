@@ -3,7 +3,7 @@ import HeaderParallax from './Components/Parallax';
 import NavMenu from './Components/NavBar';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
-import Quotes from './Components/Quotes';
+// import Quotes from './Components/Quotes';
 import Footer from './Components/Footer';
 import './css/App.css';
 
