@@ -5,7 +5,7 @@ import React from 'react';
 
 const DropMenu = props => {
   return (
-    <div className={props.isOpen ? 'menu-text--active' : 'menu-text--inactive'}>
+    <div className={props.isOpen ? 'menu-text--active' : 'menu-text--inactive'} id='navContainer'>
       <div className='nav-subContainer'>
         <a className='navLinks' href='#projects' onClick={props.handleEvent}>
           Projects
