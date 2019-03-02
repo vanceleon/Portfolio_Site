@@ -27,14 +27,11 @@ class Experience extends Component {
         <div className='experience-tabs' id='myExperience'>
           <h1>My Journey</h1>
           {this.state.roles.map((role, i) => {
-            {
-              /* let pic = require(role.image); */
-            }
-            console.log(role.image);
+           
             return (
               <div key={i} className='role'>
                 <a href={role.companyUrl}>
-                  <img src={role.image} className='company-img' />
+                  <img src={role.image} className='company-img' alt='company-logo'/>
                 </a>
                 <div className='company-info-desc'>
                   <a className='experienceLinks' href={role.companyUrl}>
