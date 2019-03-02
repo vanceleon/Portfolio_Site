@@ -21,7 +21,6 @@ class Projects extends Component {
 
   render() {
     if (this.state.projectArr) {
-      //   const uuid = uuid.v4();
       return (
         <div id='projects' className='project-tabs'>
           <h1>Projects</h1>
@@ -30,9 +29,9 @@ class Projects extends Component {
               return (
                 <div key={i}>
                   <a href={project.projectUrl}>
-                    {/* {project.title} */}
+                    
 
-                    <img className='project-snippet' src={project.image} />
+                    <img className='project-snippet' src={project.image} alt='project-screenshot'/>
                   </a>
                   <div className='description'>{project.description}</div>
                 </div>

@@ -25,7 +25,7 @@ class NavMenu extends Component {
 
   handleEvent(ev) {
       ev.preventDefault();
-      console.log(ev);
+      // console.log(ev);
   }
 
   render() {
