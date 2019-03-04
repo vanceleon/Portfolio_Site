@@ -8,9 +8,10 @@ const Footer = () => {
     return (
         <div className="footer" id='contact'>
             <div className="footer-quote">
-                <h1>Traveled from California to NYC</h1>
+                <h1>Californian to New Yorker</h1>
                 <h1>Let's Find Great Food</h1>
                 <h1>And Build A Project Along The Way</h1>
+                <a href="mailto:vanceleon44@gmail.com">Send me an email</a> 
             </div>
             <div className="contact-info">
                 <a href={Resume}><img className='social-media' src={resumePNG} alt='githubLogo'/></a>
@@ -19,6 +20,8 @@ const Footer = () => {
                 <a href='https://www.linkedin.com/in/vanceleon/'><img className='social-media' src={linkedIn} alt='resume'/></a>
 
             </div>
+            {/* <div className="email"> */}
+            {/* </div> */}
         </div>
     );
 } 

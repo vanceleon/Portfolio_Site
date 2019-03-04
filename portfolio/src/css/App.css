@@ -248,7 +248,7 @@ html {
 }
 
 .exp-description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   text-align: left;
 }
@@ -288,11 +288,11 @@ html {
 }
 
 .description {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: left;
   padding: 10px;
-  width: 300px;
+  width: 400px;
   font-style: italic;
   font-family: 'Lato Light', sans-serif;
 }
@@ -305,6 +305,10 @@ html {
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   width: 200px;
   padding: 6px;
+}
+
+.project-tabs {
+  width: 520px;
 }
 
 .project-snippets {
@@ -369,10 +373,8 @@ html {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
-  .root {
-  }
   
    .App {
     width: 100%;
@@ -394,6 +396,12 @@ html {
     align-items: center;
   }
 
+  
+.project-tabs {
+  width: 100%;
+}
+
+
   .project-snippets {
     display: flex;
     flex-direction: column;
@@ -403,8 +411,15 @@ html {
 
   .project-snippet {
     margin: 10px 0;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .experience-tabs {
+    width: 100%;
+    min-width: 100%;
+    
   }
 
   .role {
