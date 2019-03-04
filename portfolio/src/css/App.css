@@ -343,11 +343,20 @@ html {
   text-align: right;
 }
 
+
 .contact-info {
   align-items: center;
   display: flex;
+  margin: 20px 0;
 }
-
+.social-media svg {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: right;
+    font-style: bold;
+    border-radius: 20px;
+  }
 .social-media {
   width: 100px;
   height: 100px;
@@ -419,7 +428,7 @@ html {
   .experience-tabs {
     width: 100%;
     min-width: 100%;
-    
+
   }
 
   .role {
@@ -459,7 +468,29 @@ html {
   }
 
   .contact-info {
-    display: flex;
-    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    align-content: space-around;
+    margin: 0 auto;
   }
+  .social-media svg {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    text-align: right;
+    font-style: bold;
+    border-radius: 20px;
+  }
+  .social-media {
+    width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 0;
+  /* padding: 20px 0; */
+}
+
+
 }
