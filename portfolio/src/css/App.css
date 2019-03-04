@@ -235,6 +235,7 @@ html {
   /* border: 1px solid yellow; */
   margin: 0 auto;
   max-width: 1024px;
+  min-width: 520px;
 }
 
 .experience-tabs h1 {
