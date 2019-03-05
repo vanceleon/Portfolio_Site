@@ -510,3 +510,7 @@ html {
 
 
 }
+
+#loadOverlay{
+  display: none;
+}
