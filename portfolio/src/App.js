@@ -11,24 +11,17 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        {/* <div className="App-Container"> */}
-
-        <div className='header-view'>
-          <NavMenu />
+        {/* <div className='header-view'> */}
+        <NavMenu />
+        <div className='parallax'>
           <HeaderParallax />
         </div>
+        {/* </div> */}
         <div className='portfolio-container'>
-          {/* <Quotes /> */}
           <Projects />
           <Experience />
-
         </div>
-
         <Footer />
-        {/* <div className='testing'>
-          testing the text under image
-        </div> */}
-        {/* </div> */}
       </div>
     );
   }
