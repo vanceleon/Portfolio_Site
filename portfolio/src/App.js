@@ -11,10 +11,11 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-
         {/* <div className='header-view'> */}
         <NavMenu />
-        <HeaderParallax />
+        <div className='parallax'>
+          <HeaderParallax />
+        </div>
         {/* </div> */}
         <div className='portfolio-container'>
           <Projects />
