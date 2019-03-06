@@ -137,6 +137,10 @@ html {
   font-size: 62.5%;
 }
 
+@viewport{
+  width: device-width;
+}
+
 .App {
   text-align: center;
   position: relative;
@@ -235,6 +239,7 @@ html {
   /* border: 1px solid yellow; */
   margin: 0 auto;
   max-width: 1024px;
+  min-width: 520px;
 }
 
 .experience-tabs h1 {
@@ -247,7 +252,7 @@ html {
 }
 
 .exp-description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   text-align: left;
 }
@@ -287,11 +292,11 @@ html {
 }
 
 .description {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: left;
   padding: 10px;
-  width: 300px;
+  width: 400px;
   font-style: italic;
   font-family: 'Lato Light', sans-serif;
 }
@@ -306,6 +311,10 @@ html {
   padding: 6px;
 }
 
+.project-tabs {
+  width: 100%;
+}
+
 .project-snippets {
   display: flex;
   justify-content: space-evenly;
@@ -313,8 +322,8 @@ html {
 }
 
 .project-snippet {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 20px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
 }
@@ -338,11 +347,20 @@ html {
   text-align: right;
 }
 
+
 .contact-info {
   align-items: center;
   display: flex;
+  margin: 20px 0;
 }
-
+.social-media svg {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: right;
+    font-style: bold;
+    border-radius: 20px;
+  }
 .social-media {
   width: 100px;
   height: 100px;
@@ -351,31 +369,75 @@ html {
   margin: 0 25px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1400px) {
+  @viewport {
+
+  }
   .portfolio-container {
     padding: 0 20px;
+  }
+
+  .project-tabs {
+    width: 100%;
   }
 
   .project-snippets {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0 40px 0;
-    /* justify-content: flex-start; */
+    justify-content: center;
   }
 
   .project-snippet {
     margin: 10px 0;
+
   }
+
+  .footer {
+    /* border: 1px solid red; */
+    flex-direction: column;
+    
+    /*    padding: 20px; */
+  }
+
+  
+  .footer-quote h1 {
+    text-align: center;
+  }
+
+  .contact-info {
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    align-content: space-around;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .social-media svg {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    text-align: right;
+    font-style: bold;
+    border-radius: 20px;
+  }
+  .social-media {
+    width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 0;
+  /* padding: 20px 0; */
+}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
 
-  .root {
-  }
   
    .App {
-    width: 100%;
-    min-width: 480px;
+    width: device-width;
+    /* min-width: 480px; */
     margin: 0 auto;
     /* display: flex; */
     /* width: 100%; */
@@ -393,6 +455,14 @@ html {
     align-items: center;
   }
 
+  
+.project-tabs {
+  width: 100%;
+  
+  /* padding: 20px; */
+}
+
+
   .project-snippets {
     display: flex;
     flex-direction: column;
@@ -402,8 +472,15 @@ html {
 
   .project-snippet {
     margin: 10px 0;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .experience-tabs {
+    width: 100%;
+    min-width: 100%;
+
   }
 
   .role {
@@ -414,13 +491,13 @@ html {
 
   .company-info-desc {
     margin: 0 auto;
-    width: 345px;
+    width: 400px;
     /* text-align: justify; */
   }
 
   .company-img {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     border-radius: 20px;
     box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2),
       0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
@@ -431,19 +508,16 @@ html {
     width: 400px;
     margin: 0 auto;
   }
-
-  .footer {
-    /* border: 1px solid red; */
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .footer-quote h1 {
-    text-align: center;
-  }
-
   .contact-info {
-    display: flex;
-    justify-content: center;
+    width: 80%;
   }
+
+ 
+
+
+
+}
+
+#loadOverlay{
+  display: none;
 }
