@@ -136,13 +136,13 @@ html {
   font-size: 62.5%;
 }
 
-* { 
+* {
   box-sizing: border-box;
-
 }
 
 .App {
   margin: 0 auto;
+  text-align: center;
   width: 100%;
 }
 
@@ -173,7 +173,6 @@ html {
   position: fixed;
   z-index: 20;
   width: 100%;
- 
 }
 
 .nav-subContainer {
@@ -182,7 +181,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .navLinks {
@@ -193,7 +191,6 @@ html {
   /* line-height: 50px; */
   margin: 15px 0;
 }
-
 
 .parallax-headshot {
   min-height: 500px;
@@ -230,7 +227,7 @@ html {
   color: white;
   font-size: 8rem;
   font-weight: bold;
-  font-family: 'Sitka Heading', 'Century Schoolbook',sans-serif;
+  font-family: 'Sitka Heading', 'Century Schoolbook', sans-serif;
 }
 
 .experience-tabs {
@@ -269,7 +266,6 @@ html {
   box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .company-info-desc {
   text-align: left;
   margin: 0 30px;
@@ -287,16 +283,6 @@ html {
   font-size: 2rem;
   margin: 10px 0;
   font-style: italic;
-}
-
-.description {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  text-align: left;
-  padding: 10px;
-  width: 300px;
-  font-style: italic;
-  font-family: 'Lato Light', sans-serif;
 }
 
 .project-tabs h1 {
@@ -319,11 +305,25 @@ html {
   margin: 20px 0 40px 0;
 }
 
+.each-project {
+  padding: 0 15px;
+}
+
 .project-snippet {
   width: 300px;
   height: 300px;
   border-radius: 20px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: left;
+  padding: 10px;
+  width: 300px;
+  font-style: italic;
+  font-family: 'Lato Light', sans-serif;
 }
 
 .footer {
@@ -345,20 +345,19 @@ html {
   text-align: right;
 }
 
-
 .contact-info {
   align-items: center;
   display: flex;
   margin: 20px 0;
 }
 .social-media svg {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    text-align: right;
-    font-style: bold;
-    border-radius: 20px;
-  }
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  text-align: right;
+  font-style: bold;
+  border-radius: 20px;
+}
 .social-media {
   width: 100px;
   height: 100px;
@@ -388,23 +387,20 @@ html {
 
   .project-snippet {
     margin: 10px 0;
-
   }
 
   .footer {
     /* border: 1px solid red; */
     flex-direction: column;
-    
+
     /*    padding: 20px; */
   }
 
-  
   .footer-quote h1 {
     text-align: center;
   }
 
   .contact-info {
-    
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px 0;
@@ -422,29 +418,32 @@ html {
   }
   .social-media {
     width: 80px;
-  height: 80px;
-  border-radius: 20px;
-  align-items: center;
-  margin: 0;
-  /* padding: 20px 0; */
-}
+    height: 80px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0;
+    /* padding: 20px 0; */
+  }
 }
 
 @media (max-width: 720px) {
-
-  
-   .App {
+  .App {
     width: 100%;
     /* min-width: 480px; */
     margin: 0 auto;
     /* display: flex; */
     /* width: 100%; */
   }
-  
+
   /* .App-Container {
     width: 100vw;
     
   } */
+
+  .parallax-container {
+    width: 100%;
+    margin: 0 auto;
+  }
 
   .header-height {
     height: 100vh;
@@ -453,13 +452,11 @@ html {
     align-items: center;
   }
 
-  
-.project-tabs {
-  width: 100%;
-  
-  /* padding: 20px; */
-}
+  .project-tabs {
+    width: 100%;
 
+    /* padding: 20px; */
+  }
 
   .project-snippets {
     display: flex;
@@ -468,17 +465,20 @@ html {
     margin: 20px 0 40px 0;
   }
 
+  .each-project {
+    justify-content: center;
+    padding: 0;
+  }
+
   .project-snippet {
     margin: 10px 0;
     width: 400px;
     height: 400px;
   }
 
-
   .experience-tabs {
     width: 100%;
     min-width: 0;
-
   }
 
   .role {
@@ -502,6 +502,11 @@ html {
     margin: 0 0 10px 0;
   }
 
+  .footer {
+    margin: 0 auto;
+    width: 100%;
+  }
+
   .company-info {
     width: 400px;
     margin: 0 auto;
@@ -509,13 +514,8 @@ html {
   .contact-info {
     width: 80%;
   }
-
- 
-
-
-
 }
 
-#loadOverlay{
+#loadOverlay {
   display: none;
 }

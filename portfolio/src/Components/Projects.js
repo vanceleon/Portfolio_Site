@@ -27,11 +27,13 @@ class Projects extends Component {
           <div className='project-snippets'>
             {this.state.projectArr.map((project, i) => {
               return (
-                <div key={i}>
+                <div key={i}className='each-project'>
                   <a href={project.projectUrl}>
-                    
-
-                    <img className='project-snippet' src={project.image} alt='project-screenshot'/>
+                    <img
+                      className='project-snippet'
+                      src={project.image}
+                      alt='project-screenshot'
+                    />
                   </a>
                   <div className='description'>{project.description}</div>
                 </div>
