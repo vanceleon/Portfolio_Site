@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import HeaderParallax from './Components/Parallax';
+import HeaderParallax from './Components/Parallax';
 import NavMenu from './Components/NavBar';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
@@ -11,12 +11,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        {/* <div className='header-view'> */}
         <NavMenu />
-        {/* <div className='parallax'>
-          <HeaderParallax />
-        </div> */}
-        {/* </div> */}
+        <HeaderParallax />
         <div className='portfolio-container'>
           <Projects />
           <Experience />
