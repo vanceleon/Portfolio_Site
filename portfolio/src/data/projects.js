@@ -19,7 +19,7 @@ export const projects = [
       image: GAMEOFLIFE,
       projectUrl: 'https://vl-game-of-life.netlify.com/',
       title: 'Game of Life',
-      description: 'Game of Life and its four rules. Solution contains a constant time algorithm for checking squares around live squares.'
+      description: 'Game of Life and its four rules. Solution contains a constant time algorithm for checking for live squares around selected squares.'
     },
     // {
     //   image: 'image src goes here',
