@@ -94,7 +94,7 @@
 
 @keyframes mymove {
   from {
-    left: -150px;
+    right: 100%;
   }
   to {
     left: 0px;
@@ -102,7 +102,7 @@
 }
 
 .menu-text--active {
-  animation: mymove 300ms;
+  animation: mymove 100ms;
   animation-fill-mode: both;
   animation-delay: 200ms;
   position: absolute;
@@ -116,10 +116,7 @@
   border-radius: 0 0 15px 0;
 }
 
-
-
 .menu-text--inactive {
-  /* transition: all .3s ease-in-out; */
   display: none;
 }
 
@@ -169,6 +166,7 @@
     background-color: #ffff;
     text-decoration: none;
     border-radius: 0px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2),
+      0 1px 0.5px 0 rgba(0, 0, 0, 0.19);
   }
 }
