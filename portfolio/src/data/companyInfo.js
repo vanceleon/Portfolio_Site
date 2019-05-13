@@ -12,7 +12,7 @@ export const companyInfo = [
     image: LAMBDA,
     company: 'Lambda School',
     companyUrl: 'https://lambdaschool.com/',
-    title: 'Full Stack Developer',
+    title: 'Software Engineer',
     location: 'New York, NY',
     description: 'Lambda School is a seven-month immersive full stack software development program working in a team environment. The first couple of months has to do with the front-end, learning how to develop beautiful applications with vanilla CSS then moving onto LESS all the way to styled components in React. With our training in vanilla JavaScript and ReactJS, we took time learning Redux for large scale application state management. Once we finished all that we moved into back-end development using Node.js, Express.js, PostgreSQL, and Knex. Once we finished back-end, we moved into the Computer Science curriculum where we learned data structures and algorithms, Python, Django, C. After completing this section I am now able to write code solving problems with more time and space efficiency. '
   },
@@ -44,7 +44,7 @@ export const companyInfo = [
     image: CITY,
     company: 'City of Garden Grove',
     companyUrl: 'https://ggcity.org/',
-    title: 'IT Support Technician',
+    title: 'IT Department',
     location: 'Garden Grove, CA',
     description: 'During my time with the City of Garden Grove, I help support over 300 employees with their IT needs to be able to conduct their day-to-day operations. Some of the major tasks that I was able to assist the IT department with was creating a standard citywide, and city engineers desktop image to make our mass deployment of computers go efficiently. My skills in Linux were cultivated here since the servers were a Linux based system. '
   },
@@ -60,7 +60,7 @@ export const companyInfo = [
     image: ANAHEIMAUTO,
     company: 'Anaheim Automation',
     companyUrl: 'https://www.anaheimautomation.com/',
-    title: 'Web Designer',
+    title: 'Front-End Developer',
     location: 'Anaheim, CA',
     description: 'As a Web Designer, I spent most of my time making Anaheim Automation’s UI/UX provide our customers with a great user experience. I put together a photo booth room to take high-quality pictures of our products and edited them for the site. To also ensure that the specifications that were documented on the site were accurate I contacted our distributors and worked with the engineering and marketing teams for verification. Some of my major contributions consisted of coming up with filtration in the single item page view that could couple with other items that we sold, to promote cross-selling and increase sales. Another feature that I came up with was a shopping cart for online sales generation. '
   }
