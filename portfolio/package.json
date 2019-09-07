@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "gsap": "^2.1.0",
+    "js-yaml": "^3.13.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-parallax": "^2.1.0",
