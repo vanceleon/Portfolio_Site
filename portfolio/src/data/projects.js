@@ -1,6 +1,7 @@
 import SMARTRECIPEZ from '../img/projects/SmartRecipez.png'
 import MORNINGBRIEF from '../img/projects/MorningBrief.png'
 import GAMEOFLIFE from '../img/projects/GameOfLife.JPG'
+import FINANCECALCULATOR from '../img/projects/FinanceCalculator.JPG'
 
 export const projects = [
     {
@@ -20,6 +21,12 @@ export const projects = [
       projectUrl: 'https://vl-game-of-life.netlify.com/',
       title: 'Game of Life',
       description: 'Game of Life and its four rules. Solution contains a constant time algorithm for checking for live squares around selected squares.'
+    },
+    {
+      image: FINANCECALCULATOR,
+      projectUrl: 'https://finance-calculator.netlify.com/',
+      title: 'Finance Calculator',
+      description: 'This calculator will help users solve for future value of cash flows and weighted average cost of capital (WACC)'
     },
     // {
     //   image: 'image src goes here',

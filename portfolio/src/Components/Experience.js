@@ -3,6 +3,7 @@ import CircularUnderLoad from './loading';
 // import uuid from 'uuid';
 import { companyInfo } from '../data/companyInfo.js';
 import '../img/logos/ASAP_Program.png';
+import DummyData from '../data/dummy';
 
 class Experience extends Component {
   constructor() {
@@ -39,6 +40,7 @@ class Experience extends Component {
                   </a>
                   <div className='location'>{role.location}</div>
                   <div className='exp-description'>{role.description}</div>
+                  <div>{DummyData.title}</div>
                 </div>
               </div>
             );
