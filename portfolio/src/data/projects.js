@@ -1,7 +1,7 @@
 import SMARTRECIPEZ from '../img/projects/SmartRecipez.png'
 import MORNINGBRIEF from '../img/projects/MorningBrief.png'
 import GAMEOFLIFE from '../img/projects/GameOfLife.JPG'
-import FINANCECALCULATOR from '../img/projects/FinanceCalculator.JPG'
+import FINANCECALCULATOR from '../img/projects/FinanceCalculator.png'
 
 export const projects = [
     {
