@@ -1,7 +1,7 @@
 import React from 'react';
 import github from '../img/social/github-logo.png';
 import linkedIn from '../img/social/linkedin-logo.png';
-import Resume from '../pdf/VanceLeon.pdf';
+import Resume from '../pdf/VanceLeonResume.pdf';
 import resumePNG from '../img/social/Resume.png';
 
 const Footer = () => {
