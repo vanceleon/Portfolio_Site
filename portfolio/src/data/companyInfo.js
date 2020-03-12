@@ -14,15 +14,15 @@ export const companyInfo = [
     companyUrl: 'https://lambdaschool.com/',
     title: 'Software Engineer',
     location: 'New York, NY',
-    description: 'Lambda School is a seven-month immersive full stack software development program working in a team environment. The first couple of months has to do with the front-end, learning how to develop beautiful applications with vanilla CSS then moving onto LESS all the way to styled components in React. With our training in vanilla JavaScript and ReactJS, we took time learning Redux for large scale application state management. Once we finished all that we moved into back-end development using Node.js, Express.js, PostgreSQL, and Knex. Once we finished back-end, we moved into the Computer Science curriculum where we learned data structures and algorithms, Python, Django, C. After completing this section I am now able to write code solving problems with more time and space efficiency. '
+    description: 'Upon graduation, I became eligible for Lambda School\'s Software Engineer Contract program. In this continuation program Lambda School sources contracts for their students to build real products for customers on a 1099 basis. This has allowed me to work on multiple teams, increased exposure to various technologies (Javascript, Docker, AWS, IBM Watson, Python, MongoDB, PostgreSQL, Postman, Ruby on Rails, Wordpress, Firebase) working through the full life cycle from product analysis and design to deployment and maintenance.' 
   },
   {
     image: ASAP,
-    company: 'California State University Fullerton',
+    company: 'Titan Capital Management',
     companyUrl: 'https://giving.fullerton.edu/features/applied-security.aspx',
     title: 'Equity Analyst (Buy-Side)',
     location: 'Fullerton, CA',
-    description: `Applied Securities Analysis Program, a portfolio management program that takes the best and hardest working students in the finance department at California State University Fullerton. In the program, we managed $1.5 million of the university’s endowment fund. We conducted active management seeking to outperform the S&P 500 on an absolute basis. Our investment philosophy consisted of bottom-up fundamental analysis and some technical analysis to find companies that would make attractive returns on capital. We traveled to San Francisco to visit our donor’s firm, Jackson Square Partners. There I presented a buy report for Grubhub to the portfolio managers and investment analysts. In the Spring we then traveled to New York to visit the NYSE and talk to brokers on the trading floor.  ` 
+    description: `In Titan Capital Management we managed $1.5 million of the university’s endowment fund. We conducted active management seeking to outperform the S&P 500 on an absolute basis. Our investment philosophy consisted of bottom-up fundamental analysis and technical analysis to find companies that would make attractive returns on investment. We traveled to San Francisco to visit Jackson Square Partners where I presented my buy report for Grubhub to the portfolio managers and investment analysts. Following that trip, we traveled to New York to visit the NYSE and talk to brokers on the trading floor and discuss our short report on SNAP upon their IPO.  ` 
   },
   {
     image: WANDR,
@@ -30,7 +30,7 @@ export const companyInfo = [
     companyUrl: 'https://www.waddell.com/',
     title: 'Financial Planning and Investments Intern',
     location: 'Brea, CA',
-    description: 'With Waddell and Reed, I was their intern in their month internship program. Learning about multiple investment securities and presented them to other analysts. During this time I put together a buy presentation for Edwards Lifesciences, catalyst, investment thesis, and competitive advantage in the industry. '
+    description: 'With Waddell and Reed, I was their intern in their month long internship program. Learning about multiple investment securities and presented them to other analysts. During this time I put together a buy presentation for Edwards Lifesciences, catalyst, investment thesis, and competitive advantage in the industry. '
   },
   {
     image: INJOY,
@@ -44,24 +44,24 @@ export const companyInfo = [
     image: CITY,
     company: 'City of Garden Grove',
     companyUrl: 'https://ggcity.org/',
-    title: 'IT Department',
+    title: 'Support Engineer',
     location: 'Garden Grove, CA',
-    description: 'During my time with the City of Garden Grove, I help support over 300 employees with their IT needs to be able to conduct their day-to-day operations. Some of the major tasks that I was able to assist the IT department with was creating a standard citywide, and city engineers desktop image to make our mass deployment of computers go efficiently. My skills in Linux were cultivated here since the servers were a Linux based system. '
+    description: 'During my time with the City of Garden Grove, I help support over 300 employees with their IT needs to be able to conduct their day-to-day operations. Some of the major tasks that I was able to assist the IT department was creating a standard citywide desktop image, various Linux commands for user profiles such as scripting user logins, and remote session software support.'
   },
   {
     image: RCSMITH,
     company: 'RC Smith Design Build',
     companyUrl: 'https://www.rcsmithdesignbuild.com/',
-    title: 'Bookkeeper',
+    title: 'Independent Bookkeeper',
     location: 'Fullerton, CA',
-    description: 'RC Smith Design Build was a great small family owned general contracting business. My role in this operation was simple IT needs that consisted of computer builds, software installation, and network integration. I was also their bookkeeper and managed the flow of transactions and recorded them into their financial statements. I also put together excel templates that had dynamic ways of seeing particular results, helping to eliminate redundant tasks. '
+    description: 'RC Smith Design Build was a great small family-owned general contracting business. My role in this operation was servicing their IT needs that consisted of computer builds, software installation, and network integration. I was also their bookkeeper and managed the flow of transactions and recorded them into their financial statements. I also put together dynamic excel templates for automated reporting. '
   },
   {
     image: ANAHEIMAUTO,
     company: 'Anaheim Automation',
     companyUrl: 'https://www.anaheimautomation.com/',
-    title: 'Front-End Developer',
+    title: 'Front-End Web Designer',
     location: 'Anaheim, CA',
-    description: 'As a Web Designer, I spent most of my time making Anaheim Automation’s UI/UX provide our customers with a great user experience. I put together a photo booth room to take high-quality pictures of our products and edited them for the site. To also ensure that the specifications that were documented on the site were accurate I contacted our distributors and worked with the engineering and marketing teams for verification. Some of my major contributions consisted of coming up with filtration in the single item page view that could couple with other items that we sold, to promote cross-selling and increase sales. Another feature that I came up with was a shopping cart for online sales generation. '
+    description: 'As a Web Designer, I spent most of my time making Anaheim Automation’s UI/UX provide our customers with a great user experience. I also designed a photography room to take high-quality pictures of their products and edited them in Photoshop for the website. For quality assurance, I made sure user spec sheets on the website were accurate by contacting Anaheim Automation\'s distributors and worked closely with the engineering and marketing teams for verification. Some of my major contributions consisted of coming up with filtration in the single item page view that could couple with other items that we sold, to promote cross-selling and increase sales. '
   }
 ];
