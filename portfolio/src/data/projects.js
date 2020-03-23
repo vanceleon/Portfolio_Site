@@ -1,6 +1,6 @@
 import SMARTRECIPEZ from '../img/projects/SmartRecipez.png'
-import MORNINGBRIEF from '../img/projects/MorningBrief.png'
-import GAMEOFLIFE from '../img/projects/GameOfLife.JPG'
+import MORNINGBRIEF from '../img/projects/MorningBriefing.png'
+// import GAMEOFLIFE from '../img/projects/GameOfLife.JPG'
 import FINANCECALCULATOR from '../img/projects/FinanceCalculator.png'
 
 export const projects = [
@@ -16,12 +16,12 @@ export const projects = [
       title: 'Morning Briefing',
       description: `All in one news app, pulling news information from multiple API's.`
     },
-    {
-      image: GAMEOFLIFE,
-      projectUrl: 'https://vl-game-of-life.netlify.com/',
-      title: 'Game of Life',
-      description: 'Game of Life and its four rules. Solution contains a constant time algorithm for checking for live squares around selected squares.'
-    },
+    // {
+    //   image: GAMEOFLIFE,
+    //   projectUrl: 'https://vl-game-of-life.netlify.com/',
+    //   title: 'Game of Life',
+    //   description: 'Game of Life and its four rules. Solution contains a constant time algorithm for checking for live squares around selected squares.'
+    // },
     {
       image: FINANCECALCULATOR,
       projectUrl: 'https://finance-calculator.netlify.com/',
